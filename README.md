@@ -1,4 +1,3 @@
-Here's a streamlined `README.md` file for your spinner wheel project without the example code:
 
 ```markdown
 # Spinner Wheel App
@@ -80,4 +79,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Thanks to the creators of React, Tailwind CSS, and SweetAlert for their awesome tools.
 ```
 
-This `README.md` file provides an overview of your project, including installation instructions, usage, and a brief description of the code structure. This should help users understand and get started with your Spinner Wheel App.
+
