@@ -1,0 +1,38 @@
+.wheel {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #333;
+}
+
+.segment {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  padding: 0.5em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pointer {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid red;
+  position: absolute;
+  top: -40px; /* Adjusted to position pointer at top */
+  left: 50%;
+  transform: translateX(-50%);
+}
